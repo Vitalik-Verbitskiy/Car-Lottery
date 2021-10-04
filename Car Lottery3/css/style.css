@@ -1,0 +1,280 @@
+body{
+	font-family:'Open Sans', sans-serif;
+	color: #252A34;
+	
+}
+
+.main_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	align-items: center;
+	flex-grow: 1;
+
+}
+
+.logoauto{
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+
+}
+
+.color_auto{
+	color: #FF2E63;
+
+}
+
+.navigation{
+	font-size: 14px;
+}
+
+.color_navigation{
+	color: #252A34;
+	margin-right: 30px;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.login{
+	font-weight: 600;
+	font-size: 14px;
+	color: #FF2E63;
+	margin-right: 30px;
+
+}
+
+.register{
+	background-color: #FF2E63;
+	color: #FFFFFF;
+	border-radius: 5px;
+	padding: 10px 20px;
+
+}
+
+.main_text{
+	display: flex;
+}
+
+.text{
+	max-width: 30%;
+}
+
+.text_red{
+	font-weight: 700;
+	font-family: 'Rajdhani';
+	margin-top: 95px;
+	font-size: 50px;
+
+}
+
+.main_car_ellips{
+	position: relative;
+	display: inline-flex;
+	text-align: center;
+	max-width: 70%;
+}
+
+.main_car_ellips img{
+	position: absolute;
+   top:0;
+   left:0;
+
+}
+
+.main_car{
+	margin-top: 100px;
+	margin-left: 150px;
+}
+
+.ellips{
+	margin-left: 410px;
+	margin-top: 1px;
+}
+
+.enter{
+	color: #FFFFFF;
+	background-color: #346CD9;
+	border-radius: 5px;
+	padding: 10px 20px;
+	max-width: 120px;
+	text-align: center;
+	margin-top: 50px;
+	font-weight: 600;
+}
+
+.Latest_Competitions{
+	margin-top: 200px;
+}
+
+.latest{
+	font-family: 'Rajdhani';
+	font-weight: 700;
+	color: 343434;
+	font-size: 36px;
+}
+
+.Four_car{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.cards_cars{
+	max-width: 270px;
+	margin-top: 40px;
+	background: #FFFFFF;
+	padding-bottom: 11px;
+	border-radius: 10px;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15)	;
+}
+
+.mark_car{
+	font-family: 'Rajdhani';
+	margin-top: 20px;
+	margin-left: 20px;
+	font-weight: 700;
+	color: #252A34;
+	font-size: 20px;
+}
+
+.price{
+	font-family: 'Rajdhani';
+	color: #FF2E63;
+	font-weight: 700;
+	font-size: 30px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.old_price{
+	color: #999999;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.tickets_remaining{
+	color: #343434;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.how_it_works{
+	margin-top: 100px;
+}
+
+.how{
+	font-family: 'Rajdhani';
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.how_inner{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 60px;
+
+}
+
+.item{
+	max-width: 250px;
+	text-align: center;
+}
+
+.choose{
+	margin-top: 30px;
+	font-size: 16px;
+}
+
+.man_car{
+	display: inline-flex;
+	margin-top: 100px;
+
+}
+
+.left_side{
+	width: 640px;
+	height: 400px;
+	background: rgba(52, 108, 217, 0.12);
+	text-align: center;
+}
+
+.left_text{
+	font-size: 20px;
+	margin: 78px 120px 0 120px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.man_naime{
+	margin-top: 30px;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.winners{
+	font-size: 36px;
+	font-family: 'Rajdhani';
+	font-weight: 700;
+	color: 343434;
+}
+
+.Latest_Winners{
+	margin-top: 100px;
+}
+
+.winners_car{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.Four_cars{
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+	max-width: 270px;
+	margin-top: 40px;
+	border-radius: 10px;
+}
+
+.data{
+	margin-top: 7px;
+	margin-left: 20px;
+	color: #343434;
+}
+
+.footer{
+	width: 1280px;
+	height: 70px;
+	background: #346CD9;
+	display: flex;
+	align-items: center;
+	margin-top: 100px;
+	justify-content: space-around;
+}
+
+.logoauto_footer{
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+.color_navigation_footer{
+	color: #FFFFFF;
+	margin-left: 30px;
+	font-family: 'Open Sans';
+}
